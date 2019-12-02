@@ -10,7 +10,12 @@ import SwiftUI
 
 struct CardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("tigger-q-c-640-480-3")
+            .resizable()
+            .aspectRatio(CGSize(width: 640/480, height: 1), contentMode: .fit)
+            .padding(.all)
+            .shadow(radius: 10)
+            .cornerRadius(10)
     }
 }
 
