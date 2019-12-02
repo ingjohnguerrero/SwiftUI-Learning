@@ -8,19 +8,19 @@
 
 import SwiftUI
 
-struct CardView: View {
+struct CardImageView: View {
     var body: some View {
         Image("tigger-q-c-640-480-3")
             .resizable()
             .aspectRatio(CGSize(width: 640/480, height: 1), contentMode: .fit)
-            .padding(.all)
+            .cornerRadius(20)
+            .padding(10)
             .shadow(radius: 10)
-            .cornerRadius(10)
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardImageView()
     }
 }
