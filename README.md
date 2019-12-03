@@ -7,7 +7,7 @@
 
 Basic test about using SwiftUI framework
 
-![](header.png)
+![SwiftUI logo](https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96.png)
 
 ## Features
 
