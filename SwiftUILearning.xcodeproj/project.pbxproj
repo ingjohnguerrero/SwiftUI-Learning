@@ -15,6 +15,9 @@
 		C145AF3D2391F1E900A7EC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C145AF3B2391F1E900A7EC51 /* LaunchScreen.storyboard */; };
 		C145AF482391F1E900A7EC51 /* SwiftUILearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145AF472391F1E900A7EC51 /* SwiftUILearningTests.swift */; };
 		C145AF532391F1E900A7EC51 /* SwiftUILearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145AF522391F1E900A7EC51 /* SwiftUILearningUITests.swift */; };
+		C1CB7CA72394B98600FAFB73 /* MediaCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CB7CA62394B98600FAFB73 /* MediaCatalog.xcassets */; };
+		C1CB7CAA2394B9F400FAFB73 /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB7CA92394B9F400FAFB73 /* CardImageView.swift */; };
+		C1CB7CAD2394C06800FAFB73 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB7CAC2394C06800FAFB73 /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C145AF4E2391F1E900A7EC51 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C145AF522391F1E900A7EC51 /* SwiftUILearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITests.swift; sourceTree = "<group>"; };
 		C145AF542391F1E900A7EC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CB7CA62394B98600FAFB73 /* MediaCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MediaCatalog.xcassets; sourceTree = "<group>"; };
+		C1CB7CA92394B9F400FAFB73 /* CardImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		C1CB7CAC2394C06800FAFB73 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		C145AF2F2391F1E600A7EC51 /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				C1CB7CA82394B9D400FAFB73 /* Views */,
+				C1CB7CA52394B93F00FAFB73 /* Resources */,
 				C145AF302391F1E600A7EC51 /* AppDelegate.swift */,
 				C145AF322391F1E600A7EC51 /* SceneDelegate.swift */,
 				C145AF342391F1E600A7EC51 /* ContentView.swift */,
@@ -134,6 +142,31 @@
 				C145AF542391F1E900A7EC51 /* Info.plist */,
 			);
 			path = SwiftUILearningUITests;
+			sourceTree = "<group>";
+		};
+		C1CB7CA52394B93F00FAFB73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB7CA62394B98600FAFB73 /* MediaCatalog.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1CB7CA82394B9D400FAFB73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB7CAB2394C04300FAFB73 /* List */,
+				C1CB7CA92394B9F400FAFB73 /* CardImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1CB7CAB2394C04300FAFB73 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				C1CB7CAC2394C06800FAFB73 /* CellView.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CB7CA72394B98600FAFB73 /* MediaCatalog.xcassets in Resources */,
 				C145AF3D2391F1E900A7EC51 /* LaunchScreen.storyboard in Resources */,
 				C145AF3A2391F1E900A7EC51 /* Preview Assets.xcassets in Resources */,
 				C145AF372391F1E900A7EC51 /* Assets.xcassets in Resources */,
@@ -268,7 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C145AF312391F1E600A7EC51 /* AppDelegate.swift in Sources */,
+				C1CB7CAD2394C06800FAFB73 /* CellView.swift in Sources */,
 				C145AF332391F1E600A7EC51 /* SceneDelegate.swift in Sources */,
+				C1CB7CAA2394B9F400FAFB73 /* CardImageView.swift in Sources */,
 				C145AF352391F1E600A7EC51 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
